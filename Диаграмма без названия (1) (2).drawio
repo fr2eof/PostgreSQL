@@ -1,0 +1,185 @@
+<mxfile host="app.diagrams.net" modified="2024-05-07T11:27:11.383Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 YaBrowser/24.4.0.0 Safari/537.36" etag="C2xUq8hKAUqRgcgU2E8z" version="24.3.1" type="device">
+  <diagram name="Страница — 1" id="MFLNSZtbyCIxMrpYzTyM">
+    <mxGraphModel dx="2442" dy="2017" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_KNcyfrqCAL9563m8uxO-3" value="systemID (INT)&lt;br&gt;PRIMARY KEY&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(первичный ключ)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="70" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_KNcyfrqCAL9563m8uxO-4" value="system" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="50" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_KNcyfrqCAL9563m8uxO-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERoneToMany;endFill=0;startArrow=ERone;startFill=0;" parent="1" source="_KNcyfrqCAL9563m8uxO-5" target="_KNcyfrqCAL9563m8uxO-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_KNcyfrqCAL9563m8uxO-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=ERone;startFill=0;endArrow=ERoneToMany;endFill=0;" parent="1" source="_KNcyfrqCAL9563m8uxO-5" target="_KNcyfrqCAL9563m8uxO-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_KNcyfrqCAL9563m8uxO-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;startArrow=ERone;startFill=0;endArrow=ERoneToMany;endFill=0;" parent="1" source="_KNcyfrqCAL9563m8uxO-5" target="_KNcyfrqCAL9563m8uxO-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="160" />
+              <mxPoint x="230" y="138" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_KNcyfrqCAL9563m8uxO-5" value="systemDiscription&lt;div&gt;(VARCAHR(255)),&lt;br&gt;systemStatus(boolean)&lt;/div&gt;&lt;div&gt;NOT-NULL&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="120" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_KNcyfrqCAL9563m8uxO-6" value="reactorID (INT)&lt;br&gt;PRIMARY KEY&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp;(первичный ключ)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="280" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_KNcyfrqCAL9563m8uxO-7" value="reactor" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="260" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_KNcyfrqCAL9563m8uxO-9" value="batteryID&lt;div&gt;PRIMARY KEY&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp;(первичный ключ)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="80" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_KNcyfrqCAL9563m8uxO-10" value="battery" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="60" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_KNcyfrqCAL9563m8uxO-12" value="fuseID (INT)&lt;br&gt;PRIMARY KEY&lt;br&gt;(первичный ключ)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="-130" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8OPLunu0Ac7EKk2ausz5-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="_KNcyfrqCAL9563m8uxO-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380.47368421052624" y="-139.57894736842104" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_KNcyfrqCAL9563m8uxO-13" value="fuse" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="-150" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_KNcyfrqCAL9563m8uxO-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=ERone;startFill=0;endArrow=ERone;endFill=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="_KNcyfrqCAL9563m8uxO-14" target="_KNcyfrqCAL9563m8uxO-17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="379.44" y="-45.5" as="sourcePoint" />
+            <mxPoint x="460" y="-50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_KNcyfrqCAL9563m8uxO-14" value="fuseName (VARCAHR(255)),&lt;div&gt;NOT-NULL&lt;br&gt;fuseFirm (VARCAHR(255)),&lt;br&gt;fuseStatus (boolean)&lt;div&gt;NOT-NULL&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="-80" width="160" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="_KNcyfrqCAL9563m8uxO-15" value="fusibleInsertID&lt;div&gt;PRIMARY KEY&amp;nbsp;&lt;br&gt;(первичный ключ)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="439" y="-130" width="151" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_KNcyfrqCAL9563m8uxO-16" value="fusibleInsert" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="439" y="-150" width="151" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_KNcyfrqCAL9563m8uxO-17" value="fusibleInsertMaterial&lt;div&gt;(VARCHAR(255))&lt;/div&gt;&lt;div&gt;NOT-NULL&lt;/div&gt;&lt;div&gt;fusibleInsertStatus (boolean)&lt;br&gt;&lt;/div&gt;&lt;div&gt;NOT-NULL&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="439" y="-90" width="151" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_KNcyfrqCAL9563m8uxO-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;startArrow=ERone;startFill=0;endArrow=ERoneToMany;endFill=0;" parent="1" source="_KNcyfrqCAL9563m8uxO-18" target="_KNcyfrqCAL9563m8uxO-47" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-415" y="95" />
+              <mxPoint x="-415" y="180" />
+              <mxPoint x="-420" y="180" />
+              <mxPoint x="-420" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8OPLunu0Ac7EKk2ausz5-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="_KNcyfrqCAL9563m8uxO-18" target="_KNcyfrqCAL9563m8uxO-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_KNcyfrqCAL9563m8uxO-18" value="personID (INT)&lt;br&gt;PRIMARY KEY&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(первичный ключ)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-552" y="70" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_KNcyfrqCAL9563m8uxO-19" value="person" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-552" y="50" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_KNcyfrqCAL9563m8uxO-20" value="personName (VARCHAR(255))&lt;div&gt;NOT-NULL&lt;br&gt;&lt;div&gt;personPassport&lt;/div&gt;&lt;/div&gt;&lt;div&gt;(VARCHAR(10))&lt;div&gt;NOT-NULL,UNIQUE,&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: SFMono-Regular, Menlo, Monaco, Consolas, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14.08px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;DECIMAL(10)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-552" y="120" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_KNcyfrqCAL9563m8uxO-22" value="systemID (INT)&lt;div&gt;FOREIGN KEY&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="-6" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_KNcyfrqCAL9563m8uxO-23" value="FuseID (INT)&lt;div&gt;FOREIGN KEY&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="439" width="151" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8OPLunu0Ac7EKk2ausz5-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_KNcyfrqCAL9563m8uxO-24" target="_KNcyfrqCAL9563m8uxO-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_KNcyfrqCAL9563m8uxO-24" value="systemID (INT)&lt;br&gt;FOREIGN KEY" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="210" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_KNcyfrqCAL9563m8uxO-25" value="systemID (INT)&lt;br&gt;FOREIGN KEY" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="390" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_KNcyfrqCAL9563m8uxO-26" value="reactorName (VARCAHR(255)),&lt;div&gt;NOT-NULL&lt;br&gt;reactorFirm (VARCAHR(255)),&lt;br&gt;reactorStatus (boolean)&lt;div&gt;NOT-NULL&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="320" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_KNcyfrqCAL9563m8uxO-27" value="batteryName (VARCAHR(255)),&lt;div&gt;NOT-NULL&lt;br&gt;batteryVoltage (double),&lt;/div&gt;&lt;div&gt;NOT-NULL&lt;br&gt;batteryStatus (boolean)&lt;div&gt;NOT-NULL&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="120" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_KNcyfrqCAL9563m8uxO-39" value="action" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-252" y="50" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_KNcyfrqCAL9563m8uxO-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;startArrow=ERone;startFill=0;endArrow=ERoneToMany;endFill=0;" parent="1" source="_KNcyfrqCAL9563m8uxO-40" target="_KNcyfrqCAL9563m8uxO-47" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-272" y="108" />
+              <mxPoint x="-272" y="170" />
+              <mxPoint x="-260" y="170" />
+              <mxPoint x="-260" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8OPLunu0Ac7EKk2ausz5-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERoneToMany;startFill=0;endArrow=ERone;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="_KNcyfrqCAL9563m8uxO-40" target="8OPLunu0Ac7EKk2ausz5-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-110" y="-50" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-120" y="95" />
+              <mxPoint x="-120" y="-42" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_KNcyfrqCAL9563m8uxO-40" value="actionID (INT)&lt;br&gt;PRIMARY KEY&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(первичный ключ)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-252" y="70" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_KNcyfrqCAL9563m8uxO-41" value="actionDiscription&lt;div&gt;TEXT,&lt;/div&gt;&lt;div&gt;&lt;div&gt;actionName&lt;br&gt;(VARCHAR(255))&lt;/div&gt;&lt;/div&gt;&lt;div&gt;NOT-NULL&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-252" y="120" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_KNcyfrqCAL9563m8uxO-45" value="syntezPersonAction" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-406" y="115" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_KNcyfrqCAL9563m8uxO-46" value="syntezPersonActionID (INT)&lt;br&gt;PRIMARY KEY&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(первичный ключ)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-406" y="135" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_KNcyfrqCAL9563m8uxO-47" value="actionID (INT)&lt;div&gt;FOREIGN KEY&lt;br&gt;personID (INT)&lt;/div&gt;&lt;div&gt;FOREIGN KEY&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-406" y="195" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8OPLunu0Ac7EKk2ausz5-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="_KNcyfrqCAL9563m8uxO-20" target="_KNcyfrqCAL9563m8uxO-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8OPLunu0Ac7EKk2ausz5-5" value="syntezActionSystem" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-105" y="-52" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8OPLunu0Ac7EKk2ausz5-6" value="syntezActionSystemID (INT)&lt;br&gt;PRIMARY KEY&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(первичный ключ)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-105" y="-32" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8OPLunu0Ac7EKk2ausz5-7" value="actionID (INT)&lt;div&gt;FOREIGN KEY&lt;br&gt;systemID (INT)&lt;/div&gt;&lt;div&gt;FOREIGN KEY&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-105" y="28" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8OPLunu0Ac7EKk2ausz5-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERoneToMany;startFill=0;endArrow=ERone;endFill=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="95" as="sourcePoint" />
+            <mxPoint x="25" y="-40" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="40" y="95" />
+              <mxPoint x="40" y="-40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NwX8s9Yl9hd4IX0-OBma-1" value="systemID (INT)&lt;br&gt;PRIMARY KEY&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(первичный ключ)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-402" y="410" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NwX8s9Yl9hd4IX0-OBma-2" value="system" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-402" y="390" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NwX8s9Yl9hd4IX0-OBma-3" value="systemDiscription&lt;div&gt;(VARCAHR(255)),&lt;br&gt;systemStatus(boolean)&lt;/div&gt;&lt;div&gt;NOT-NULL&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-402" y="460" width="150" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
